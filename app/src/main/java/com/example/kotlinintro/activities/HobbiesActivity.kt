@@ -1,5 +1,6 @@
 package com.example.kotlinintro.activities
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -18,8 +19,6 @@ class HobbiesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_hobbies)
 
         setRecycler()
-
-
     }
 
     private fun setRecycler() {

@@ -36,11 +36,10 @@ class MyAdapter() :
         hobby.let {
             return hobby.size
         }
-       return 0
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        val hobby = hobby!![position]
+        val hobby = hobby[position]
 
         holder.setHobbies(hobby, position)
     }
